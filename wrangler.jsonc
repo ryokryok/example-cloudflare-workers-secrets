@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "example-cloudflare-workers-secrets",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-03-10",
+	"observability": {
+		"enabled": true
+	},
+	"env": {
+		"test": {}
+	}
+}
